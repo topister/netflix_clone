@@ -9,11 +9,12 @@ body{
     width: 100%; 
     height:100px;
     display: flex;
+    
 }
 .header{
     background-image: url('../assets/images/large_background.jpg');
     max-width: 100%;
-    height: 400px;
+    height: 700px;
     opacity: 0.9;
     background-color: black;
     background-size: 100% 100%;
@@ -55,6 +56,65 @@ body{
     border-radius: 6px;
 }
 
+.headings {
+    color:#ffffff;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.headings h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.headings h5{
+    font-size: 30px;
+}
+.headings p{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.header-form{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+.header-form form input{
+    width: 300px;
+    opacity: 0.5;
+    padding: 15px 20px;
+    border-radius: 8px solid red;
+    background-color: black;
+    color: #ffffff;
+}
+::placeholder{
+    color:#ffffff;
+    font-weight: 900;
+}
+
+.header-form form button{
+    width: 210px;
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 8px;
+    
+}
+.header-form form button:hover{
+    cursor: pointer;
+}
+
+.next {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+ 
+
 @media only screen and (min-width:600px){
     .logo img{       
         margin-left: 10px;
@@ -65,6 +125,15 @@ body{
         margin-right: 10px;
        
     }
+
+    .header-form{
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    
 }
 
 @media only screen and (max-width:600px){
@@ -77,6 +146,30 @@ body{
         margin-right: 10px;
        
     }
+
+    
+
+    .header-form{
+        display: block;
+        max-width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .header-form form input{
+        width: 400px;
+        display: block;
+        margin: auto;
+
+    }
+    .header-form form button{
+        margin-top: 100px;
+        width: 250px;
+        display: block;
+        margin: auto;        
+    }
+
+    
 }
 
 
@@ -90,6 +183,13 @@ body{
         margin-right: 10px;
        
     }
+    .header-form{
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+    
 }
 
 @media only screen and (min-width:992px){
@@ -105,6 +205,14 @@ body{
         margin-right: 50px;
         margin-top: 15px;
     }
+    .header-form{
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    
 
 }
 
@@ -121,6 +229,15 @@ body{
         margin-right: 50px;
         margin-top: 15px;
     }
+
+    .header-form{
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    
 
 }
 
